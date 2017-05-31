@@ -104,7 +104,7 @@ set_time_limit(0);
 date_default_timezone_set('UTC');
 require __DIR__.'/vendor/autoload.php';
 
-use Instagram\Instagram;
+use aseba\Instagram\Instagram;
 
 $instagram = new Instagram('client_id', 'client_secret', 'callback_uri');
 $instagram->setAccessToken('Access Token');
